@@ -1,0 +1,38 @@
+header {
+    transition: 3s;
+    background-color: rgba(189, 166, 38, 0.4);
+    background-image: url(/_img/bcheader3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    height: 35em;
+    margin: 0em;
+    margin-top: -2em;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+header:hover {
+    transition: 5s;
+    background-color: rgb(0, 0, 0);
+}
+header>h1 {
+    display: block;
+    padding-top: 5em;
+    margin: 0;
+    margin-bottom: -0.3em;
+    font-family: 'dax', Arial, Helvetica, Sans-serif;
+    font-size: 3em;
+}
+header>p {
+    color: darkred;
+    font-family: 'violette', Arial, Helvetica, sans-serif;
+    font-size: 2.2em;
+    display: block;
+    width: auto;
+    margin-top: 0;
+}
+
